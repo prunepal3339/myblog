@@ -1,0 +1,91 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header,footer{
+    background-color: #eee;
+    padding:12px;
+    margin: 20px;
+    text-align: center;
+    color:#aa0000;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 60%;
+    margin:auto;
+}
+.navbar-x ul{
+    list-style-type: none;
+    background-color:lightcoral;
+}
+.navbar-x ul li a{
+    float: left;
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div.lower-border{
+    border-bottom:1px dotted #777;
+}
+div.title{
+    font-family: cursive;
+    font-size: 1.3em;
+}
+section{
+    clear:both;
+    margin:20px;
+    padding-top:20px;
+}
+section.mainsection{
+    padding:20px;
+    border:1px solid #ccc;
+}
+section.sidenav-lg{
+    padding:20px;
+    border:1px solid #ddd;
+}
+section .description{
+    text-align:justify;
+}
+ul li a{
+    text-decoration :none;
+    color:teal;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color:#008080;
+    color: gold;
+}
+button{
+    padding:12px 16px;
+    border-radius:4px;
+    border:1px solid green;
+}
+ button a{
+    text-decoration: none;
+    color:#800000;
+    text-align:center;
+}
+button a:hover{
+    color:white;
+}
+section button:hover{
+    background-color:green;
+}
+button.facebook{
+    background-color:#3B5998;
+}
+button.twitter{
+    background-color:#009090;
+}
+button.linkedin{
+    background-color:#0077B5;
+}
+@media only screen and (min-width:700px){
+    body{
+        width:40%;
+        margin:auto;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+}
